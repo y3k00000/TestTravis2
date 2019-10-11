@@ -3,7 +3,7 @@ package y3k.testtravis
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.gson.Gson
-import android.utils.Log
+import android.util.Log
 import com.google.gson.JsonObject
 
 class MainActivity : AppCompatActivity() {
