@@ -1,6 +1,5 @@
 language: android
 dist: trusty
-before_install: - chmod +x gradlew # fix gradlew lacking permission
 android:
   components:
     # Uncomment the lines below if you want to
