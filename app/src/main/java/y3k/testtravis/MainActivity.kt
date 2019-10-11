@@ -11,6 +11,8 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        Log.d("TestGson",Gson().fromJson("{a:1}",JsonObject::class.java)+"")
+        val gson = Gson()
+        val json = gson.fromJson("{a:1}",JsonObject::class.java)
+        Log.d("TestGson",gson.toJson(json))
     }
 }
